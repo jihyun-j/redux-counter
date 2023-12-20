@@ -1,0 +1,14 @@
+'redux' folder : 리덕스 관련 코드를 모두 몰아 넣는 곳
+'config' folder : 리덕스 설정 관련 파일 전부
+'configStore' : 중앙 state 관리소 -> 설정 코드(.js)
+'modules' folder : state의 그룹
+
+이해하지말고 사용법을 익혀라! 
+
+1. configStore: 
+    1-1 import createStore, combineReducers api 
+    1-2 rootReducer 설정
+    1-3 store 설정
+    1-4 export store
+
+2. index.js에서 Provider 설정 
